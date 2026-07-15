@@ -1,3 +1,3 @@
 ## FICHA DE DAGGERHEART
 
-Aqui estará salvo o progresso de aprendizagem para criação da versão web da ficha de daggerhearts!
+Um projeto que visa deixar a utilização de fichas do rpg daggerhearts mais prática e fácil para jogadores que jogam de forma online ou presencial!
