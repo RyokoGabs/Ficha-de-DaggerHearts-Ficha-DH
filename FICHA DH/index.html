@@ -18,33 +18,77 @@
             <!--Aba incial de introdução-->
             <section>
                 <h2>Sobre este site:</h2>
-                <p>Um criador de fichas para jogo de rpg chamadado <b>DaggerHeart</b>, <br> desemvolvido pela equipe da Darrington Press e públcado oficialmente <br> aqui no Brasil pela Jambo Editora.</p>
-                <p>Aqui você poderá criar e editar suas fichas do jogo de maneira prática e visual <br> além de ser mais versatil tanto para jogadores quando para mestre de mesa. </p>
+                <p>Um criador de fichas para jogo de rpg chamadado DaggerHeart, desemvolvido pela equipe da Darrington Press e públcado oficialmente aqui no Brasil pela Jambo Editora.</p>
+                <p>Aqui você poderá criar e editar suas fichas do jogo de maneira prática e visual além de ser mais versatil tanto para jogadores quando para mestre de mesa. </p>
             
             </section>
+
             <!--Aba da ficha-->
             <section>
                 <h2>Ficha de Personagem</h2>
+
                 <form>
-                    <p>Nome:</p>
-                    <input type="text" id="nome1" name="nome" placeholder="Digite seu nome...">
-                    <p>Classe & Subclasse:</p>
-                    <input type="text" id="cl" name="classe" placeholder="Digite sua classe e Subclasse...">
-                    <p>Gênero:</p>
-                    <input type="text" id="ge" name="gênero" placeholder="Digite seu gênero...">
-                    <p>Herança:</p>
-                    <input type="text" id="her" name="herança" placeholder="Digite sua Hernaça...">
-                    <p>Level:</p>
-                    <input type="text" id="level" name="nível" placeholder="Seu Level Atual...">
-                </form>
-            </section>
-            <section>
-                <h2>Status</h2>
-                <form>
-                    <p>Esquiva:</p>
-                    <input type="text" id="esquiva" name="esquiva" placeholder="0">
-                    <p>Armadura:</p>
-                    <input type="text" id="Armadura" name="armadura" placeholder="0">
+                    <label for="nome">
+                        Nome:
+                    </label>
+
+                    <input
+                        id="nome" 
+                        type="text"
+                        placeholder="Digite seu nome...">
+                    <label for="Classe & Subclasse">
+                        Classe & Subclasse:
+                    </label>
+
+                    <input
+                        id="Classe & Subclasse"
+                        type="text"
+                        placeholder="Digite sua Classe e Subclasse...">
+
+                    <label for="Herança">
+                        Herança:
+                    </label>
+
+                    <input
+                        id="Herança" 
+                        type="text"
+                        placeholder="Digite sua Herança...">
+
+                    <label for="Gênero">
+                        Gênero:
+                    </label>
+
+                    <input
+                        id="Gênero"
+                        type="text"
+                        placeholder="Digite seu Gênero...">
+
+                    <label for="Level">
+                        Level:
+                    </label>
+
+                    <input
+                        id="level"
+                        type="number"
+                        placeholder="0">
+
+                     <h2>Status</h2>
+                
+                    <label for="Esquiva">
+                        Esquiva:
+                    </label>
+                    <input
+                        id="Esquiva" 
+                        type="number"
+                        placeholder="0">
+
+                     <label for="Armadura">
+                        Armadura:
+                    </label>
+                    <input
+                        id="Armadura" 
+                        type="number"
+                        placeholder="0">
                     <input type="checkbox" id="armo1" value="1">
                     <input type="checkbox" id="armo2" value="2">
                     <input type="checkbox" id="armo3" value="3">
@@ -59,22 +103,58 @@
                     <input type="checkbox" id="armo12" value="12">
 
                     <p>--------------------------------------------</p>
-                    <p><abbr title="Correr, Equilibrar-se, Saltar">Agilidade:</abbr></p>
-                    <input type="text" id="Agi" name="agilidade">
-                    <p>Força:</p>
-                    <input type="text" id="For" name="força">
-                    <p>Finesse:</p>
-                    <input type="text" id="Fin" name="finesse">
-                    <p>Instinto:</p>
-                    <input type="text" id="Ins" name="instinto">
-                    <p>Presença:</p>
-                    <input type="text" id="Pre" name="presença">
-                    <p>Conhecimento:</p>
-                    <input type="text" id="Con" name="conhecimento">
+                    <label for="Agilidade">
+                        Agilidade:
+                    </label>
+                        <input 
+                            id="Agilidade"
+                            type="number"
+                            placeholder="0">
+
+                    <label for="Agilidade">
+                        Força:
+                    </label>
+                        <input 
+                            id="Força"
+                            type="number"
+                            placeholder="0">
+
+                    <label for="Força">
+                        Força:
+                    </label>
+                        <input 
+                            id="Finesse"
+                            type="number"
+                            placeholder="0">
+
+                    <label for="Instinto">
+                        Instinto:
+                    </label>
+                        <input 
+                            id="Instinto"
+                            type="number"
+                            placeholder="0">
+
+                    <label for="Presença">
+                        Presença:
+                    </label>
+                        <input 
+                            id="Presença"
+                            type="number"  
+                            placeholder="0">
+
+                    <label for="Conhecimento">
+                        Conhecimento:
+                    </label>
+                        <input 
+                            id="Conhecimento"
+                            type="number"
+                            placeholder="0">
 
                 </form>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+        </footer>
     </body>
 </html>
